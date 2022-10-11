@@ -1,0 +1,87 @@
+{
+  "name": "markdownheadings",
+	"displayName": "MarkdownHeadings",
+	"description": "Functions and keybindings to add markdown same level heading or sublevel heading",
+	"version": "0.0.1",
+	"repository": "https://github.com/microsoft/vscode-extension-samples/helloworld-sample",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+        "onCommand:markdownheadings.addHeading",
+        "onCommand:markdownheadings.addSubHeading",
+        "onCommand:markdownheadings.demoteHeading",
+        "onCommand:markdownheadings.promoteHeading"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "markdownheadings.addHeading",
+				"title": "Add same level heading",
+				"category": "MarkdownHeadings"
+			},
+			{
+				"command": "markdownheadings.addSubHeading",
+				"title": "Add sublevel heading",
+				"category": "MarkdownHeadings"
+			},
+			{
+				"command": "markdownheadings.demoteHeading",
+				"title": "Demote heading",
+				"category": "MarkdownHeadings"
+			},
+			{
+				"command": "markdownheadings.promoteHeading",
+				"title": "Promote heading",
+				"category": "MarkdownHeadings"
+			}
+		],
+		"keybindings":[
+			{
+				"command": "markdownheadings.addHeading",
+				"key": "alt+enter",
+				"when": "editorLangId == markdown"
+			},
+			{
+				"command": "markdownheadings.addSubHeading",
+				"key": "alt+shift+enter",
+				"when": "editorLangId == markdown"
+			},
+			{
+				"command": "markdownheadings.demoteHeading",
+				"key": "alt+right",
+				"when": "editorLangId == markdown"
+			},
+			{
+				"command": "markdownheadings.promoteHeading",
+				"key": "alt+left",
+				"when": "editorLangId == markdown"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.60.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.1",
+		"@types/node": "16.x",
+		"@typescript-eslint/eslint-plugin": "^5.30.0",
+		"@typescript-eslint/parser": "^5.30.0",
+		"eslint": "^8.18.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.0.0",
+		"typescript": "^4.7.4",
+		"@vscode/test-electron": "^2.1.5"
+	}
+}
