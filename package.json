@@ -2,7 +2,7 @@
   "name": "markdownheadings",
 	"displayName": "MarkdownHeadings",
 	"description": "Functions and keybindings to add markdown same level heading or sublevel heading",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"repository": "https://github.com/microsoft/vscode-extension-samples/helloworld-sample",
 	"engines": {
 		"vscode": "^1.60.0"
