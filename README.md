@@ -18,7 +18,7 @@ Demonstration :
 
 For VSCode : https://marketplace.visualstudio.com/items?itemName=sbij.markdownheadings
 
-For VSCodium : 
+For VSCodium : https://open-vsx.org/extension/sbij/markdownheadings/https://open-vsx.org/extension/sbij/markdownheadings/
 
 (or just download the vsix from the VSCode link)
 
