@@ -4,7 +4,7 @@
   "publisher": "sbij",
   "icon": "images/logo.png",
   "description": "MarkdownHeadings is a VSCode extension helping with Markdown headings through functions and keybindings. It adds the possibility to promote, demote, and add same level or sublevel headings.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "https://github.com/sbij/vscode-MarkdownHeadings",
   "engines": {
     "vscode": "^1.60.0"
