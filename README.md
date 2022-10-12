@@ -14,7 +14,13 @@ Demonstration :
 ![Feature presentation](images/animation.gif)
 
 
+## Installation
 
+For VSCode : https://marketplace.visualstudio.com/items?itemName=sbij.markdownheadings
+
+For VSCodium : 
+
+(or just download the vsix from the VSCode link)
 
 ## Requirements
 No requirements.
