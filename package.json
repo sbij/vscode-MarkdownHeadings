@@ -1,9 +1,11 @@
 {
   "name": "markdownheadings",
 	"displayName": "MarkdownHeadings",
-	"description": "Functions and keybindings to add markdown same level heading or sublevel heading",
-	"version": "1.0.0",
-	"repository": "https://github.com/microsoft/vscode-extension-samples/helloworld-sample",
+	"publisher": "sbij",
+	"icon": "images/logo.png",
+	"description": "MarkdownHeadings is a VSCode extension helping with Markdown headings through functions and keybindings. It adds the possibility to promote, demote, and add same level or sublevel headings.",
+	"version": "1.0.2",
+	"repository": "https://github.com/sbij/vscode-MarkdownHeadings",
 	"engines": {
 		"vscode": "^1.60.0"
 	},

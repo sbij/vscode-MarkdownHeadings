@@ -11,7 +11,7 @@ MarkdownHeadings is a VSCode extension helping with Markdown headings through fu
 
 Demonstration :
 
-![Feature presentation](animation.gif)
+![Feature presentation](images/animation.gif)
 
 
 
